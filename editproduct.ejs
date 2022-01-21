@@ -1,0 +1,175 @@
+<%-include("./partials/head")%> <%-include("./partials/navbar")%>
+<style>
+  body {
+    background-color: rgb(252, 74, 74);
+  }
+  .formbody {
+    border: 3px solid black;
+    box-shadow: 5px 5px 4px black;
+    margin: 9%;
+    padding: 4%;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+  .formbody div {
+    margin: 1.4%;
+    margin-bottom: 4%;
+  }
+  .onsalez span {
+    margin: 1%;
+  }
+  button {
+    color: white;
+    font-weight: 700;
+    border-radius: 21px;
+    padding: 1.3%;
+    background-color: rgb(69, 51, 236);
+  }
+</style>
+<body>
+  <!-- prettier-ignore -->
+  <body>
+  <div class="formbody">
+    <form action="/products/<%=eproduct._id%>?_method=PUT" method="POST">
+      <div class="basicdetal">
+        <div class="formbox basicdet">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Product Name"
+                aria-label="Product Name"
+                id="name"
+                name="name"
+                value="<%=eproduct.name%>"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Price"
+                aria-label="Price"
+                id="price"
+                name="price"
+                value="<%=eproduct.price%>"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="category">
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="category"
+            name="category"
+          >
+            <% for(let category of categories){ %>
+            <option value="<%=category%>" <%= eproduct.category === category ? 'selected': '' %>><%=category%></option>
+            <% } %>
+
+          </select>
+        </div>
+      </div>
+
+      <div class="prodqty">
+        <div class="col-12">
+          <label for="qty" class="form-label">Quantity</label>
+          <input
+            type="number"
+            class="form-control qoty"
+            name="qty"
+            id="qty"
+            min="1"
+            value="<%=eproduct.qty%>"
+          />
+        </div>
+        <select
+          class="form-select"
+          aria-label="Default select example"
+          id="unit"
+          value="<%=eproduct.unit%>"
+        >
+          <option value="kg">Kg</option>
+          <option value="g">g</option>
+          <option value="ounce">Ounce</option>
+          <option value="bottle">Bottle</option>
+          <option value="packet">Packet</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default"
+          >Logo</span
+        >
+        <input
+          type="url"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+          id="logo"
+          name="logo"
+          value="<%=eproduct.logo%>"
+        />
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default"
+          >Product Image</span
+        >
+        <input
+          type="url"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+          id="prodimage"
+          name="prodimage"
+          value="<%=eproduct.prodimage%>"
+        />
+      </div>
+      <div class="onsalez">
+        <div class="yesno">
+          <label for="onsale" name="onsale">On Sale</label>
+          <select
+            class="form-select form-select-sm"
+            aria-label=".form-select-sm example"
+            id="onsale"
+          >
+            <% for(let osale of solez){ %>
+            <option value="<%=osale%>" <%= eproduct.onsale === osale ? 'selected': '' %>><%=osale%></option>
+            <% } %>
+          </select>
+        </div>
+        <div class="percent">
+          <input
+            class="form-control"
+            type="number"
+            name="discount"
+            id="discount"
+            placeholder="Discount If Any"
+            value="<%=eproduct.discount%>"
+          />
+        </div>
+      </div>
+      <div class="shelflife">
+        <label for="shelflife">Shelf Life [In days]</label>
+        <input
+          type="number"
+          class="form-control"
+          aria-label="Price"
+          id="shelflife"
+          name="shelflife"
+          value="<%=eproduct.shelflife%>"
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</body>
