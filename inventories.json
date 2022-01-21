@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a8c"
+  },
+  "name": "Red Grapefruits",
+  "price": 21,
+  "category": "fruit",
+  "logo": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-fruit-vacation-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
+  "prodimage": "https://i5.walmartimages.com/asr/c23d870b-225f-4818-afe3-0b4add48afe6.b78126a7bd277fd29afbeb21dac10e04.jpeg",
+  "onsale": false,
+  "discount": 0,
+  "rating": 2,
+  "qty": 1,
+  "unit": "kg",
+  "address": {
+    "street": "Pooja Warehouse",
+    "state": "Mumbai",
+    "country": "India"
+  },
+  "shelflife": 30,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.275Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a8d"
+  },
+  "name": "Tomatoes",
+  "price": 49,
+  "category": "vegetable",
+  "logo": "https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/344/external-vegetable-supermarket-photo3ideastudio-flat-photo3ideastudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/1397cd52-8636-48d7-90a7-3c15d4c3967c.7544db07683e1eed49dbd813de13e291.jpeg",
+  "onsale": true,
+  "discount": 35,
+  "rating": 4,
+  "qty": 3,
+  "unit": "kg",
+  "address": {
+    "street": "Pooja Warehouse",
+    "state": "Mumbai",
+    "country": "India"
+  },
+  "shelflife": 30,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.276Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a8e"
+  },
+  "name": "Cottage Cheese",
+  "price": 70,
+  "category": "dairy",
+  "logo": "https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/344/external-dairy-baking-tools-inipagistudio-lineal-color-inipagistudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/97f91373-82f1-4c28-9b54-deeccfffd057_1.dec4a85ec3412531061f8d35e8a418df.jpeg",
+  "onsale": false,
+  "discount": 0,
+  "rating": 3,
+  "qty": 1,
+  "unit": "packet",
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 10,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.277Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a8f"
+  },
+  "name": "Perssimons",
+  "price": 41,
+  "category": "fruit",
+  "logo": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-fruit-vacation-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
+  "prodimage": "https://i5.walmartimages.ca/images/Enlarge/685/150/6000198685150.jpg",
+  "onsale": false,
+  "discount": 0,
+  "rating": 2,
+  "qty": 100,
+  "unit": "g",
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 49,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.278Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a90"
+  },
+  "name": "Brinjal",
+  "price": 49,
+  "category": "vegetable",
+  "logo": "https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/344/external-vegetable-supermarket-photo3ideastudio-flat-photo3ideastudio.png",
+  "prodimage": "https://i5.walmartimages.ca/images/Enlarge/094/510/6000200094510.jpg",
+  "onsale": true,
+  "discount": 10,
+  "rating": 3,
+  "qty": 1,
+  "unit": "kg",
+  "address": {
+    "street": "Mandela Warehouse",
+    "state": "tsaichung",
+    "country": "India"
+  },
+  "shelflife": 30,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.278Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e84877ca7c4aeae1534a91"
+  },
+  "name": "Chocolate Milk",
+  "price": 75,
+  "category": "dairy",
+  "logo": "https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/344/external-dairy-baking-tools-inipagistudio-lineal-color-inipagistudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/794f1210-8278-42b4-ba70-a94b89dfa104.f68257b4d860073dc6fa21438657ea8c.jpeg",
+  "onsale": true,
+  "discount": 15,
+  "rating": 5,
+  "qty": 1,
+  "unit": "ounce",
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 120,
+  "delivery": {
+    "$date": "2022-01-19T17:20:55.278Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e979e840c08ac6a321a7f9"
+  },
+  "name": "Bananas",
+  "price": 41,
+  "category": "fruit",
+  "logo": "https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/344/external-dairy-baking-tools-inipagistudio-lineal-color-inipagistudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/93a17e9f-c519-487e-8f61-6f7b58fc764f.07776d55da72f8818cec403ec35ff81c.jpeg",
+  "discount": null,
+  "qty": 12,
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 35,
+  "delivery": {
+    "$date": "2022-01-20T15:04:08.568Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e99c00e0fc5d0745a5a132"
+  },
+  "name": "Whipped Cream",
+  "price": 69,
+  "category": "dairy",
+  "logo": "https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/344/external-dairy-baking-tools-inipagistudio-lineal-color-inipagistudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/51f3bbfc-4f4e-4cc6-bc50-10abad79a5cb_1.56f89f0147123e2be69c7d42b9ec5f52.jpeg",
+  "discount": 13,
+  "qty": 1,
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 119,
+  "delivery": {
+    "$date": "2022-01-20T17:29:36.436Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61e9c40bf147f7758f9d5927"
+  },
+  "name": "Green Pepper",
+  "price": 27,
+  "category": "vegetable",
+  "logo": "https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/344/external-vegetable-supermarket-photo3ideastudio-flat-photo3ideastudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/f9eb0b85-a672-4d3c-9646-b83a4a675d98_1.f3f235f3bca9274f66b4f589647c50d3.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+  "discount": 10,
+  "qty": 1,
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 30,
+  "delivery": {
+    "$date": "2022-01-20T20:20:27.827Z"
+  },
+  "__v": 0,
+  "onsale": "true"
+},{
+  "_id": {
+    "$oid": "61ea780e9a56adb1f86132a0"
+  },
+  "name": "Eggs",
+  "price": 13,
+  "category": "dairy",
+  "logo": "https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/344/external-dairy-baking-tools-inipagistudio-lineal-color-inipagistudio.png",
+  "prodimage": "https://i5.walmartimages.com/asr/f508fe7b-6d9b-4c08-98a2-dc2a0d28e879_1.d80ec9a377e8d7d1b613c506dbbb15eb.jpeg",
+  "discount": 0,
+  "qty": 2,
+  "address": {
+    "street": "Washington Warehouse",
+    "state": "Delhi",
+    "country": "India"
+  },
+  "shelflife": 4,
+  "delivery": {
+    "$date": "2022-01-21T09:08:30.283Z"
+  },
+  "__v": 0
+}]
